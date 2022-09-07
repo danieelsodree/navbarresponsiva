@@ -11,13 +11,18 @@
 }
 
 .container{
-    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
-    height: 20%;
+    height: 5%;
     align-items: center;
+}
+
+.container:hover{
+    transition: 0.7s;
+    height: 9%;
+    padding-top: 10px;
 }
 
 h1{
@@ -40,7 +45,7 @@ ul{
 
 li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 22px;
     cursor: pointer;
     font-weight: bold;
 }
